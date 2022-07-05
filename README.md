@@ -1,2 +1,2 @@
 # marvel-form
-This is simple form build using basic html and CSS
+This is simple form build using basic html and CSS.
