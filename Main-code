@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <!-- TITLE-->
+      <h1 id="title">Marvel Survey Form</h1>
+ <!--TITLE DESCRIPTION-->
+         <p id="description">An Entire Universe. Once and for All.</p>
+ <!--FORM WITH ID="SURVEY-FORM"-->
+    <form id="survey-form">
+ <!--CREATING A DIVISION WHICH GIVES BASIC INFORMATION ABOUT PROPOSER-->     
+      <div id="intro">
+      <label id="name-label">Enter your name: <input type="text" name="name" id="name" placeholder="Name" required/></label>
+      <label id="email-label">Enter your email: <input type="email" id="email" placeholder="email" required/></label>
+      <label id="number-label">Age: <input type="number" id="number" placeholder="Age" min="16" max="100" /></label>
+      
+<!--PROPOSER FAVOURITE HERO WILL BE IN DROPDOWN LIST-->
+<p>Who is your favourite hero</p>
+<select id="dropdown">
+  <option value="">Favourite hero</option>
+  <option value="1">Tony Stark</option>
+  <option value="2">Natasha Romanoff</option>
+  <option value="3">Bruce Banner</option>
+  <option value="4">Thor</option>
+  <option value="5">Captain America</option>
+  <option value="6">Clint Barton</option>
+  <option value="7">Other</option>
+  </select>
+<!-- PROPOSER FAVOURITE VILLIAN -->
+  <p>According to you who is strongest villian?</p>
+  <label>
+  <input type="radio" value="loki" name="villian">Loki</label>
+  <label>
+  <input type="radio" value="Ultron" name="villian">Ultron</label>
+  <label>
+  <input type="radio" value="agatha" name="villian">Agatha</label>
+  <label>
+  <input type="radio" value="wanda & pietro" name="villian">Wanda & Pietro</label>
+  <label>
+  <input type="radio" value="hela" name="villian">Hela</label>
+<label>
+  <input type="radio" value="thanos" name="villian">Thanos</label>
+  <label>
+  <input type="radio" value="red skull" name="villian">Red-skull</label>
+  <label>
+  <input type="radio" value="others" name="villian">Others</label>  
+
+  <!--PROPOSERS MOST WATCHED MOVIE-->
+  
+  <p>Which is your most watched movie ?</p>
+<label for="endgame"><input type="checkbox" value="endgame" id="endgame" name="movie">Avengers-Endgame</label>
+<label for="iron-man"><input type="checkbox" value="iron-man" id="iron-man" name="movie">Iron-man</label>
+<label for="doctor-strange"><input type="checkbox" value="doctor-strange" id="doctor-strange" name="movie">Doctor Strange</label>
+<label for="guardians of the galaxy"><input type="checkbox" value="guardians of the galaxy" id="guardians of the galaxy" name="movie">Guardians of the galaxy</label>
+<label for="thor"><input type="checkbox" value="thor" id="thor" name="movie">Thor</label>
+<label for="black-panther"><input type="checkbox" value="black-panther" id="black-panther" name="movie">Black-Panther</label>
+<label for="captain"><input type="checkbox" value="captain" id="captain" name="movie">Captain America</label>
+<label for="ant-man"><input type="checkbox" value="ant-man" id="ant-man" name="movie">Ant-man</label>
+
+  </div>
+  <hr>
+  <!-- PROPOSERS COMMENTS-->
+  <div id="comments">
+
+      <label>According to you how marvel connects the audience to marvel universe? 
+      <textarea rows="4" cols="50">Enter your comments here..</textarea>
+      <br>
+      <p>Thank you for taking out time to fill the form. :)</p>
+
+
+      </label>
+
+      <input type="submit" id="submit" />
+      
+    </div>
+
+    </form>
+
+   </body>
+
+</html>
